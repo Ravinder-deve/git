@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      html,
+      body {
+        margin: 0px;
+      }
+      .row {
+        width: 80%;
+        margin: 150px auto;
+        background-color: red;
+        height: 500px;
+        display: flex;
+      }
+      .col1 {
+        background-color: green;
+        flex-basis: 50%;
+        font-size: 50px;
+      }
+
+      .col2 {
+        background-color: yellow;
+        flex-basis: 50%;
+      }
+
+      @media screen and (max-width: 900px) {
+        .row {
+          display: flex;
+          flex-direction: column;
+        }
+        .col1{
+            background-color: yellowgreen;
+        }
+      }
+      @media screen and (max-width: 600px) {
+        .row {
+          display: flex;
+          flex-direction: column;
+        }
+        .col1{
+            font-size: 15px;
+        }
+      }
+
+     
+    </style>
+  </head>
+  <body>
+    <div class="row">
+      <div class="col1">
+        git init git add index.html #one file added git add . #multile file
+        added git status #check status git commit -m "first commit" #save the
+        data git branch -M main git remote add origin
+        https://github.com/upsidon/Test.git git push -u origin main
+      </div>
+      <div class="col2">2</div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,8 @@
+git init
+git add index.html      #one file added
+git add .                #multile file added
+git status              #check status
+git commit -m "first commit"       #save the data
+git branch -M main            
+git remote add origin https://github.com/upsidon/Test.git
+git push -u origin main
